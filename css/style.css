@@ -431,3 +431,110 @@ footer {
     margin-left: 5px;
     transition: margin-left 0.3s ease;
 }
+
+
+
+/*format tel*/
+
+@media screen and (max-width: 768px) {
+    h2 {
+        font-size: 2em;
+    }
+    .nav_right {
+        display: none;
+    }
+    .element_nav {
+        padding: 10px 0px;
+    }
+    .element_nav a {
+        font-size: 0.5em;
+        margin: 0 5px;
+    }
+    .nom_logo {
+        font-size: 17px;
+    }
+    .nom_logo {
+        margin : 30px 30px;
+        font-size: 12px;
+    }
+
+    header {
+        height: 90vh;
+        background-size: 80%; 
+    }
+    header h1 {
+        font-size: 5em;
+        font-variation-settings: "wght" 600, "ital" 1;
+        text-shadow: 4px 4px 0px #07bccc,
+            10px 10px 0px #e601c0,
+            15px 15px 0px #e9019a,
+            20px 20px 0px #f40468,
+            40px 40px 10px rgb(15, 15, 15);
+    }
+
+    #a_propos {
+        margin-bottom: 200px;
+    }
+
+    
+   
+    #artistes .art_ul{
+        width: 380px;
+        height: 280px;
+        font-size: 0.5em;  
+        padding-top: 0px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    #artistes .art_li {
+        flex: 1 0 21%;
+        margin: 1.5%;
+    }
+    .art-content p {
+        display: none;
+    }
+
+    #guest .art_ul{
+        width: 200px;
+        height: 100px;
+        font-size: 0.5em;
+    }
+
+
+
+   
+    #a_propos p {
+        margin: 10px 0px;
+        font-size: 1em;
+    }
+
+    
+    #competences {
+        padding: 25px 10px;
+    }
+    #competences .container {
+        flex-direction: column;
+    }
+
+   
+    #projets {
+        padding: 20px 10px;
+    }
+    #projets .container {
+        flex-direction: column;
+    }
+
+   
+    #contact {
+        font-size: 1em;
+    }
+
+    .carte{
+        width: 300px;
+        height: 400px;
+        align-items: center;
+    }
+}
+
